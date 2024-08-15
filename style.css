@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(38, 38, 224);
+}
+
+p {
+    font-size: 15px;
+}
+/* Bagian main*/
+main {
+    display: flex;
+}
+/* style kontainer kiri */
+#berat-badan, #tinggi-badan, #usia {
+    width: 80%;
+}
+
+.main-container{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.main-tittle {
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    background-color: rgb(0, 162, 255);
+    height: 300px;
+    padding: 10px;
+}
+
+/* style button */
+button {
+    border-radius: 5px;
+    border: 1px solid rgb(38, 38, 224);
+    background-color: rgb(38, 38, 224);
+    color: white;
+    padding: 5px;
+}  
+
+/* style form hasil */
+
+.second-aside {
+    background-color: rgb(0, 162, 255);
+    margin-top: 18px;
+    width: 50%;
+    height: 200px;
+}
+
+.hasil-tittle {
+    text-align: center;
+    margin: 20px;
+}
+
+#hasil-output {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellowgreen; 
+    overflow: hidden;
+}
+
+#keterangan {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#program-diet {
+    margin-top: 100px;
+    height: 300px;
+}
+
+#penyakit {
+    background-color: rgb(0, 162, 255);
+    height: 200px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}  
